@@ -34,7 +34,6 @@ MANIFEST
 *.mo
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -74,7 +73,6 @@ db.sqlite3
 
 # IDEs
 .idea/
-.vscode/
 *.iml
 .devcontainer
 
@@ -90,3 +88,4 @@ docker/livekit/rootCA.pem
 # NixOS
 .devenv
 .pre-commit-config.yaml
+config.bat

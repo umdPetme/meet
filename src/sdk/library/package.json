@@ -20,8 +20,8 @@
     "dist/"
   ],
   "scripts": {
-    "dev": "vite build -w --mode development",
-    "build": "tsc -b && vite build",
+    "dev": "node init && vite build -w --mode development",
+    "build": "node init && tsc -b && vite build",
     "lint": "eslint . --ext ts,tsx",
     "format": "prettier --write ./src",
     "check": "prettier --check ./src"
